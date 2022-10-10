@@ -1,0 +1,52 @@
+$date
+	Mon Oct 10 17:55:58 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module mux_tb $end
+$var wire 3 ! t_y [2:0] $end
+$var reg 3 " t_i0 [2:0] $end
+$var reg 3 # t_i1 [2:0] $end
+$var reg 3 $ t_i2 [2:0] $end
+$var reg 3 % t_i3 [2:0] $end
+$var reg 2 & t_sel [1:0] $end
+$scope module mult $end
+$var wire 3 ' i0 [2:0] $end
+$var wire 3 ( i1 [2:0] $end
+$var wire 3 ) i2 [2:0] $end
+$var wire 3 * i3 [2:0] $end
+$var wire 2 + sel [1:0] $end
+$var reg 3 , y [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 ,
+b0 +
+b1 *
+b10 )
+b100 (
+b0 '
+b0 &
+b1 %
+b10 $
+b100 #
+b0 "
+b0 !
+$end
+#2
+b100 !
+b100 ,
+b1 &
+b1 +
+#4
+b1 !
+b1 ,
+b11 &
+b11 +
+#6
