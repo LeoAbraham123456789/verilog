@@ -1,0 +1,51 @@
+$date
+	Mon Oct 10 18:21:10 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module demux_tb $end
+$var wire 1 ! t_y3 $end
+$var wire 1 " t_y2 $end
+$var wire 1 # t_y1 $end
+$var wire 1 $ t_y0 $end
+$var reg 1 % t_i $end
+$var reg 1 & t_s0 $end
+$var reg 1 ' t_s1 $end
+$scope module demult $end
+$var wire 1 % i $end
+$var wire 1 & s0 $end
+$var wire 1 ' s1 $end
+$var wire 1 $ y0 $end
+$var wire 1 # y1 $end
+$var wire 1 " y2 $end
+$var wire 1 ! y3 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0'
+0&
+1%
+1$
+0#
+0"
+0!
+$end
+#2
+1#
+0$
+1&
+#4
+0#
+1"
+0&
+1'
+#6
+1!
+0"
+1&
