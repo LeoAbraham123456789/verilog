@@ -5,7 +5,7 @@ module jk(input j, k, clk,
         q=0;
         qc=1;
     end
-    always @(clk) begin
+    always @(clk or j or k) begin
         case({j,k})
             2'b00: q=q;
             2'b01: q=0;

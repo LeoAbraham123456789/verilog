@@ -5,7 +5,7 @@ module sr(input s, r, clk,
         q=0;
         qc=1;
     end
-    always @(clk) begin
+    always @(clk or s or r) begin
         case({s,r})
             2'b00: q=q;
             2'b01: q=0;
