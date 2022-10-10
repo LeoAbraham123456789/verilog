@@ -5,7 +5,7 @@ module sr(input s, r, clk,
         q=0;
         qc=1;
     end
-    always @(posedge clk) begin
+    always @(clk) begin
         case({s,r})
             2'b00: q=q;
             2'b01: q=0;
@@ -13,7 +13,7 @@ module sr(input s, r, clk,
             2'b11: q=1'bx;
         endcase
         case(clk)
-            1'b0: q=q;
+            1'b0: q=0;
         endcase
         qc=!q;
     end

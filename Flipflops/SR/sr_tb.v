@@ -11,7 +11,6 @@ module sr_tb;
         $monitor("%b\t%b\t%b\t%b\t%b", t_clk, t_s, t_r, t_q, t_qc);
         t_clk=1'b0;
         #2
-        
         t_s=1'b0;
         t_r=1'b0;
         #2
